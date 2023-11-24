@@ -2,12 +2,21 @@
 
 body {
   font-family: "Work Sans", sans-serif;
-  color: #292e3d;
+  color: #14171f;
 }
 
 .container {
   width: 90%;
   margin: 0 auto;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section-heading-h2 {
+  font-size: 36px;
+  font-weight: 700;
 }
 
 /* --- NAVIGATION --- */
@@ -83,3 +92,89 @@ body {
   background-color: #fff;
   opacity: 0.5;
 }
+
+/* OUR REPUTATION SECTION */
+
+.our-reputation-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.section-heading-h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.reputation-tiles {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: auto;
+  justify-content: center;
+  gap: 50px;
+}
+
+.reputation-tile {
+  width: 300px;
+  padding: 20px;
+
+  border: 1px solid #e0e3eb;
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.tile-heading {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tile-description {
+  font-size: 16px;
+  font-weight: #858ead;
+}
+
+/* OTHERS */
+/* .section {
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+} */
+
+/* .boxes {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  justify-content: center;
+  gap: 50px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.brown {
+  background-color: brown;
+} */
